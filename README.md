@@ -15,6 +15,8 @@ python basc.py [-p,--parse|-b,--goto] infile
 * -b,--goto 表示混淆器模式，所有循环结构用GOTO语句重写。
 * 否则把bas源码转换为Python，输出文件在控制台的标准输出中。
 
+-----
+
 * infile: Specifies the input BASIC source file.
 * -p,--parse: To parse file only. (Represented with tuples) 
 * -b,--goto: Working as a confuser, rewriting loops with GOTO.
