@@ -10,10 +10,10 @@ BASIC parser and compiler using peglet.
 ```
 python basc.py [-p,--parse|-b,--goto] infile
 ```
-*其中infile表示输入bas源文件。
-*-p,--parse 表示输出语法解析树（以元组表示）
-*-b,--goto 表示混淆器模式，所有循环结构用GOTO语句重写。
-*否则把bas源码转换为Python，输出文件在控制台的标准输出中。
+* 其中infile表示输入bas源文件。
+* -p,--parse 表示输出语法解析树（以元组表示）
+* -b,--goto 表示混淆器模式，所有循环结构用GOTO语句重写。
+* 否则把bas源码转换为Python，输出文件在控制台的标准输出中。
 
 infile: Specifies the input BASIC source file.
 -p,--parse: To parse file only. (Represented with tuples) 
